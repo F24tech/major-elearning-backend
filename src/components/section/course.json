@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_courses",
+  "info": {
+    "displayName": "Course",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "boolean"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.videos"
+    }
+  }
+}

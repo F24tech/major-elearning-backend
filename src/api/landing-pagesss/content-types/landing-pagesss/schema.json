@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pagess",
+  "info": {
+    "singularName": "landing-pagesss",
+    "pluralName": "landing-pagess",
+    "displayName": "Landing Pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "carousal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousal.carousal"
+    }
+  }
+}
